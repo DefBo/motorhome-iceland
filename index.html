@@ -1,0 +1,515 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 5</title>
+	<meta name="description" content="Startup HTML template OptimizedHTML 5">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="icon" href="images/favicon.png">
+	<meta property="og:image" content="images/dist/preview.jpg">
+	
+	<link rel="stylesheet" href="css/app.min.css">
+
+</head>
+
+<body>
+
+	<header class="mi-header">
+		<div class="mi-header__content">
+			<a href="./" class="mi-header__logo">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 120 56">
+					<use xlink:href="images/inline.svg#logo"></use>
+				</svg>
+			</a>
+
+			<div class="mi-header__col">
+				<nav class="mi-header__nav">
+					<ul class="mi-header__nav-list">
+						<li class="mi-header__nav-item">
+							<a href="./campers/" class="mi-header__nav-url">Campers</a>
+						</li>
+						<li class="mi-header__nav-item">
+							<a href="./motorhomes/" class="mi-header__nav-url">Motorhomes</a>
+						</li>
+						<li class="mi-header__nav-item">
+							<a href="./4x4/" class="mi-header__nav-url">4x4</a>
+						</li>
+						<li class="mi-header__nav-item">
+							<a href="./extras/" class="mi-header__nav-url">Extras</a>
+						</li>
+						<li class="mi-header__nav-item">
+							<a href="./faq/" class="mi-header__nav-url">FAQ</a>
+						</li>
+						<li class="mi-header__nav-item">
+							<a href="./about-us/" class="mi-header__nav-url">About us</a>
+						</li>
+						<li class="mi-header__nav-item">
+							<a href="./blog/" class="mi-header__nav-url">Blog</a>
+						</li>
+						<li class="mi-header__nav-item">
+							<a href="./contact/" class="mi-header__nav-url">Contact</a>
+						</li>
+					</ul>
+				</nav>
+
+				<button class="mi-header__burger">
+					<img
+						class="mi-header__burger-img"
+						src="./images/dist/nav-burger.svg"
+						alt="Burger icon"
+					/>
+				</button>
+
+				<div class="mi-header__locale-dropdown">
+					<button class="mi-header__locale-btn">
+						<!--TODO: Replace src appropriately to the selected locale-->
+						<img class="mi-header__locale-flag" src="./images/dist/flag-us.svg" alt="Selected Locale Flag"/>
+						<!--TODO: Rotate arrow when dropdown is open-->
+						<svg class="mi-header__locale-arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 120 56">
+							<use xlink:href="images/inline.svg#arrow"></use>
+						</svg>
+					</button>
+
+					<!--TODO: Add & style dropdown for selecting language menu here-->
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="mi-hero">
+		<picture>
+			<source
+				media="(min-width: 992px)"
+				srcset="./images/dist/hero-bg-desktop.jpg"
+			/>
+			<source
+				media="(min-width: 768px)"
+				srcset="./images/dist/hero-bg-tablet.jpg"
+			/>
+			<img
+				class="mi-hero__background"
+				src="./images/dist/hero-bg.jpg"
+				alt="Illustration with motorhome"
+			/>
+		</picture>
+
+		<ul class="mi-breadcrumbs mi-hero__breadcrumbs">
+			<li class="mi-breadcrumbs__item">
+				<a href="./" class="mi-breadcrumbs__url">Home</a>
+			</li>
+			<li class="mi-breadcrumbs__item">
+				<a href="./" class="mi-breadcrumbs__url">About us</a>
+			</li>
+		</ul>
+
+		<h1 class="mi-hero__heading">
+			Product, Experience,&nbsp;<br/> Quality and Service
+		</h1>
+	</section>
+
+	<section class="mi-info">
+		<div class="container mi-info__container">
+			<article class="mi-info__article">
+				<h3 class="mi-info__heading">Motorhome Iceland is Our Name...</h3>
+				<p class="mi-info__text">
+					We have built our business upon the solid principle of providing superior customer service.
+					We want to make the whole process of booking, picking up,
+					driving and returning a hired vehicle as smooth and as comfortable as possible for our customers.
+					Our excellent relationships with the best LOCAL car rental companies in Iceland make us leaders in PRODUCT and PRICE.
+					We provide QUALITY vehicles that suit both your travel needs and your pocket!
+				</p>
+			</article>
+
+			<article class="mi-info__article">
+				<h3 class="mi-info__heading">... And Campervan & RV Rentals is Our Game!</h3>
+				<p class="mi-info__text">
+					With a proven track record of excellence in the tourism industry in Iceland since 2008,
+					our team is made up of people who possess firsthand knowledge of Iceland.
+					We live here and we know everything there is to know about travelling around Iceland.
+					This has instilled in us a passion for this country and for what we do.
+				</p>
+			</article>
+
+			<div class="mi-info__images">
+				<div class="mi-info__image-wrap mi-info__image-wrap_1">
+					<picture>
+						<source
+							media="(min-width: 992px)"
+							srcset="./images/dist/info-waterfall-desktop.jpg"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="./images/dist/info-waterfall-tablet.jpg"
+						/>
+						<img
+							class="mi-info__image"
+							src="./images/dist/info-waterfall.jpg"
+							alt="Man standing near waterfall"
+						/>
+					</picture>
+				</div>
+
+				<div class="mi-info__image-wrap mi-info__image-wrap_2">
+					<picture>
+						<source
+							media="(min-width: 992px)"
+							srcset="./images/dist/info-van-desktop.jpg"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="./images/dist/info-van-tablet.jpg"
+						/>
+						<img
+							class="mi-info__image"
+							src="./images/dist/info-van.jpg"
+							alt="Motorhome interrior with mother & son smiling"
+						/>
+					</picture>
+				</div>
+			</div>
+
+			<article class="mi-info__article">
+				<h3 class="mi-info__heading">Ready for the Adventure of a Lifetime?</h3>
+				<p class="mi-info__text">
+					Scandinavian Travel Services ehf is an Icelandic booking office and tour operator recognized by the
+					<a href="https://www.saf.is/">Icelandic Tourist Board</a>. Our effective and dedicated management
+					team quickly identified a need for the services offered by Motorhome Iceland to provide a personal
+					touch when renting a motorhome or <a href="https://www.campingiceland.com/motorhome-iceland-camping">Camper in Iceland</a>.
+					We think this helps us to be the best <a href="https://www.motorhomeiceland.com/motorhome">MOTORHOME</a>
+					& <a href="https://www.campersreykjavik.com/">CAMPER RENTAL SERVICE IN ICELAND</a>.
+				</p>
+			</article>
+
+			<article class="mi-info__article">
+				<h3 class="mi-info__heading">We are Iceland. Let us Show you Around!</h3>
+				<p class="mi-info__text">
+					As the twenty-first-century traveller becomes increasingly demanding and cost-conscious,
+					Motorhome <a href="https://www.icelandcars.is/">Iceland</a> continues to gain greater acceptance
+					and a loyal following. We feel we add extra value to our service through our knowledge and expertise of
+					<a href="https://www.iceland24blog.com/rent-car-in-iceland-car-comparison-by/">driving in Iceland</a>.
+					This makes us a viable alternative in the Motorhome & Camper rental market in
+					<a href="https://www.iamreykjavik.com/septic-water-iceland">Iceland</a> – streets ahead of the competition.
+				</p>
+			</article>
+		</div>
+	</section>
+
+	<section class="mi-contact">
+		<div class="container mi-contact__container">
+			<main class="mi-contact__main">
+				<form
+					class="mi-contact__form"
+					action="#"
+				>
+					<div class="mi-contact__form-row">
+						<div class="mi-contact__form-field">
+							<label
+								for="first-name"
+								class="mi-contact__form-label"
+							>
+								First Name *
+							</label>
+							<input
+								class="mi-contact__form-input"
+								type="text"
+								placeholder="Enter Name"
+								id="first-name"
+							/>
+						</div>
+
+						<div class="mi-contact__form-field">
+							<label
+								for="last-name"
+								class="mi-contact__form-label"
+							>
+								Last Name
+							</label>
+							<input
+								class="mi-contact__form-input"
+								type="text"
+								placeholder="Enter Last Name"
+								id="last-name"
+							/>
+						</div>
+					</div>
+
+					<div class="mi-contact__form-row">
+						<div class="mi-contact__form-field">
+							<label
+								for="email"
+								class="mi-contact__form-label"
+							>
+								Email *
+							</label>
+							<input
+								class="mi-contact__form-input"
+								type="text"
+								placeholder="Enter Email"
+								id="email"
+							/>
+						</div>
+
+						<div class="mi-contact__form-field">
+							<label
+								for="phone"
+								class="mi-contact__form-label"
+							>
+								Phone
+							</label>
+							<input
+								class="mi-contact__form-input"
+								type="text"
+								placeholder="Enter Phone Number"
+								id="phone"
+							/>
+						</div>
+					</div>
+
+					<div class="mi-contact__form-row">
+						<div class="mi-contact__form-field">
+							<label
+								for="message"
+								class="mi-contact__form-label"
+							>
+								Message *
+							</label>
+							<textarea
+								class="mi-contact__form-textarea"
+								name="message"
+								id="message"
+								placeholder="Write your message"
+							></textarea>
+						</div>
+					</div>
+
+					<button
+						class="mi-contact__form-submit"
+						type="submit"
+					>
+						Send
+					</button>
+				</form>
+			</main>
+
+			<aside class="mi-contact__aside">
+				<div class="mi-contact__address-wrap">
+					<h4 class="mi-contact__adress-title">Address</h4>
+					<address class="mi-contact__address">
+						Iðavellir 11,<br/>
+						230 Reykjanesbaer, Iceland
+					</address>
+				</div>
+
+				<div class="mi-contact__image-wrap">
+					<picture>
+						<source
+							media="(min-width: 992px)"
+							srcset="./images/dist/contact-customer-support-desktop.jpg"
+						/>
+						<source
+							media="(min-width: 768px)"
+							srcset="./images/dist/contact-customer-support-tablet.jpg"
+						/>
+						<img
+							class="mi-contact__image"
+							src="./images/dist/contact-customer-support.jpg"
+							alt="Smiling customer support woman in earphones"
+						/>
+					</picture>
+				</div>
+
+				<div class="mi-contact__phone-wrap">
+					<h5 class="mi-contact__phone-title">
+						We can help you 24/7
+					</h5>
+					<a
+						class="mi-contact__phone"
+						href="tel:+3544971216"
+					>
+						+354 497 12 16
+					</a>
+				</div>
+			</aside>
+		</div>
+	</section>
+
+	<section class="mi-outro">
+		<picture>
+			<source
+				media="(min-width: 992px)"
+				srcset="./images/dist/outro-background-desktop.png"
+			/>
+			<source
+				media="(min-width: 768px)"
+				srcset="./images/dist/outro-background-tablet.png"
+			/>
+			<img
+				class="mi-outro__background"
+				src="./images/dist/outro-background.png"
+				alt="Illustration with Icelandic landscape"
+			/>
+		</picture>
+
+		<h2 class="mi-outro__heading">
+			Welcome to Iceland,<br/> a land crafted by the Gods
+		</h2>
+	</section>
+
+	<footer class="mi-footer">
+		<div class="container mi-footer__container">
+			<a href="./" class="mi-footer__logo">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 120 56">
+					<use xlink:href="images/inline.svg#logo"></use>
+				</svg>
+			</a>
+
+			<div class="mi-footer__sections">
+				<section class="mi-footer__section mi-footer__section_description">
+					<h6 class="mi-footer__heading">Office Opening Hours</h6>
+					<p class="mi-footer__description">
+						We have 24/7 hour service at<br/>
+						Keflavik International Airport.<br/>
+						Iðavellir 11, Reykjanesbaer (Iceland)
+					</p>
+				</section>
+
+				<section class="mi-footer__section mi-footer__section_nav">
+					<h6 class="mi-footer__heading">Shortcuts</h6>
+					<nav class="mi-footer__nav">
+						<ul class="mi-footer__nav-list">
+							<li class="mi-footer__nav-list-item">
+								<a href="./campervans/" class="mi-footer__nav-list-url">Campervans</a>
+							</li>
+							<li class="mi-footer__nav-list-item">
+								<a href="./insurance/" class="mi-footer__nav-list-url">Insurance</a>
+							</li>
+							<li class="mi-footer__nav-list-item">
+								<a href="./motorhomes/" class="mi-footer__nav-list-url">Motorhomes</a>
+							</li>
+							<li class="mi-footer__nav-list-item">
+								<a href="./about-us/" class="mi-footer__nav-list-url">About Us</a>
+							</li>
+							<li class="mi-footer__nav-list-item">
+								<a href="./extras/" class="mi-footer__nav-list-url">Extras</a>
+							</li>
+							<li class="mi-footer__nav-list-item">
+								<a href="./blog/" class="mi-footer__nav-list-url">Blog</a>
+							</li>
+							<li class="mi-footer__nav-list-item">
+								<a href="./faq/" class="mi-footer__nav-list-url">FAQs</a>
+							</li>
+							<li class="mi-footer__nav-list-item">
+								<a href="./contact-us/" class="mi-footer__nav-list-url">Contact Us</a>
+							</li>
+						</ul>
+					</nav>
+				</section>
+
+				<section class="mi-footer__section mi-footer__section_address">
+					<h6 class="mi-footer__heading">Get in touch</h6>
+					<a href="tel:+3544971216" class="mi-footer__url">+354 497 12 16</a>
+					<a href="mailto:info@motorhomeiceland.com" class="mi-footer__url">info@motorhomeiceland.com</a>
+				</section>
+			</div>
+
+			<div class="mi-footer__social">
+				<a href="#" class="mi-footer__social-url">
+					<img
+						class="mi-footer__social-icon"
+						src="./images/dist/instagram-icon.svg"
+						alt="Instagram icon"
+					/>
+				</a>
+
+				<a href="#" class="mi-footer__social-url">
+					<img
+						class="mi-footer__social-icon"
+						src="./images/dist/facebook-icon.svg"
+						alt="Facebook icon"
+					/>
+				</a>
+
+				<a href="#" class="mi-footer__social-url">
+					<img
+						class="mi-footer__social-icon"
+						src="./images/dist/google-icon.svg"
+						alt="Google icon"
+					/>
+				</a>
+			</div>
+
+			<div class="mi-footer__badges">
+				<img
+					src="./images/dist/registered-badge.svg"
+					alt="Booking office registered badge"
+					class="mi-footer__badge"
+				/>
+
+				<img
+					src="./images/dist/authorised-badge.svg"
+					alt="Tour operator authorised"
+					class="mi-footer__badge"
+				/>
+			</div>
+
+			<div class="mi-footer__payments">
+				<img
+					class="mi-footer__payment"
+					src="./images/dist/mastercard-logo.svg"
+					alt="Mastercard logo"
+				/>
+
+				<img
+					class="mi-footer__payment"
+					src="./images/dist/maestro-logo.svg"
+					alt="Maestro logo"
+				/>
+
+				<img
+					class="mi-footer__payment"
+					src="./images/dist/visa-logo.svg"
+					alt="Visa logo"
+				/>
+
+				<img
+					class="mi-footer__payment"
+					src="./images/dist/american-express-logo.svg"
+					alt="American Express logo"
+				/>
+
+				<img
+					class="mi-footer__payment"
+					src="./images/dist/discover-logo.svg"
+					alt="Discover logo"
+				/>
+
+				<img
+						class="mi-footer__payment"
+						src="./images/dist/union-pay-logo.svg"
+						alt="UnionPay logo"
+				/>
+
+				<img
+						class="mi-footer__payment"
+						src="./images/dist/jcb-logo.svg"
+						alt="JCB logo"
+				/>
+			</div>
+
+			<p class="mi-footer__copyright">
+				© 2024 by Scandinavian Travel Services ehf.
+			</p>
+		</div>
+	</footer>
+
+	<script src="js/app.min.js"></script>
+
+</body>
+</html>
